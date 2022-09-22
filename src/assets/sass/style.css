@@ -1,0 +1,232 @@
+.header .navbar {
+  border: 1px solid #39524f;
+  background-color: #f6f4f1 !important;
+  color: #39524f !important;
+}
+
+.header .navbar .logoimg {
+  background-color: #39524f;
+  padding: 27px 20px;
+}
+
+.header .navbar .nav-link {
+  font-family: "Montserrat",Sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #39524f !important;
+  padding-left: 13px !important;
+  padding-right: 13px !important;
+}
+
+.header .navbar .nav-link:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #d8e1cc;
+          text-decoration-color: #d8e1cc;
+  text-decoration-thickness: 7px;
+  text-underline-offset: -4px;
+}
+
+.header .navbar .active {
+  text-decoration: underline !important;
+  -webkit-text-decoration-color: #d8e1cc !important;
+          text-decoration-color: #d8e1cc !important;
+  text-decoration-thickness: 7px !important;
+  text-underline-offset: -4px !important;
+}
+
+.header .navbar .btn {
+  width: 79px;
+  height: 86px;
+  background-color: #39524f;
+  color: #d8e1cc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.header .navbar .btn .iconbag {
+  font-size: 17px;
+}
+
+.header .navbar .btn .iconbag .sifir {
+  font-size: 9px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: #d8e1cc;
+  color: #39524f;
+  min-width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translate(10px, -20px);
+          transform: translate(10px, -20px);
+}
+
+.sec1 {
+  padding-top: 160px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sec1 .container {
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.sec1 .container .basliq {
+  margin-bottom: 20px;
+}
+
+.sec1 .container .basliq .fresh {
+  font-family: 'Cormorant', serif;
+  color: #39524f;
+  font-size: 66px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sec1 .container .navlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.sec1 .container .navlist .nav-item {
+  padding: 20px 25px;
+}
+
+.h5-info {
+  color: #39524F;
+  text-decoration: none;
+}
+
+.h5-info:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #d8e1cc;
+          text-decoration-color: #d8e1cc;
+  text-decoration-thickness: 7px;
+  text-underline-offset: -4px;
+  color: #39524F;
+}
+
+.h5-info h5 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Montserrat",Sans-serif;
+}
+
+.icon-nav {
+  margin-bottom: 5px;
+}
+
+.icon-nav i {
+  font-size: 41px;
+  color: #39524F;
+  font-weight: 600;
+}
+
+.card {
+  border: none;
+  border-radius: none;
+  background: none;
+}
+
+.card .image {
+  position: relative;
+}
+
+.card .image:hover > .close-add {
+  opacity: 1;
+  -webkit-transform: translateY(-60px);
+          transform: translateY(-60px);
+  -webkit-transition: opacity 0.5s ease, color 0.3s ease-out, border 0.3s ease-out, background 0.3s ease-out, -webkit-transform 0.5s ease, -webkit-box-shadow 0.3s ease-out !important;
+  transition: opacity 0.5s ease, color 0.3s ease-out, border 0.3s ease-out, background 0.3s ease-out, -webkit-transform 0.5s ease, -webkit-box-shadow 0.3s ease-out !important;
+  transition: transform 0.5s ease, opacity 0.5s ease, color 0.3s ease-out, border 0.3s ease-out, background 0.3s ease-out, box-shadow 0.3s ease-out !important;
+  transition: transform 0.5s ease, opacity 0.5s ease, color 0.3s ease-out, border 0.3s ease-out, background 0.3s ease-out, box-shadow 0.3s ease-out, -webkit-transform 0.5s ease, -webkit-box-shadow 0.3s ease-out !important;
+}
+
+.card .image img {
+  width: 100%;
+  -webkit-transition: opacity 0.5s ease, color 0.3s ease-out, border 0.3s ease-out, background 0.3s ease-out, -webkit-transform 0.5s ease, -webkit-box-shadow 0.3s ease-out !important;
+  transition: opacity 0.5s ease, color 0.3s ease-out, border 0.3s ease-out, background 0.3s ease-out, -webkit-transform 0.5s ease, -webkit-box-shadow 0.3s ease-out !important;
+  transition: transform 0.5s ease, opacity 0.5s ease, color 0.3s ease-out, border 0.3s ease-out, background 0.3s ease-out, box-shadow 0.3s ease-out !important;
+  transition: transform 0.5s ease, opacity 0.5s ease, color 0.3s ease-out, border 0.3s ease-out, background 0.3s ease-out, box-shadow 0.3s ease-out, -webkit-transform 0.5s ease, -webkit-box-shadow 0.3s ease-out !important;
+}
+
+.card .image img:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.card .image .close-add {
+  width: 100%;
+  opacity: 0;
+}
+
+.card .image .close-add .btn {
+  position: absolute;
+  height: 45px;
+  width: 100%;
+  background-color: #39524f;
+  color: #d8e1cc;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0%;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+}
+
+.card .card-title {
+  color: #39524f;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Cormorant', serif;
+}
+
+.main-content {
+  background-color: #f6f4f1;
+}
+/*# sourceMappingURL=style.css.map */

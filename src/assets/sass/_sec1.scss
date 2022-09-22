@@ -1,0 +1,36 @@
+.sec1{
+    padding-top: 160px;
+    padding-left: 30px;
+    padding-right: 30px;
+   .container{
+     max-width: 1260px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 0;
+ 
+
+    .basliq{
+        margin-bottom: 20px;
+
+        .fresh{
+            font-family: 'Cormorant', serif;
+            color: #39524f;
+            font-size: 66px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+
+    .navlist{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+       .nav-item{
+           padding: 20px 25px;
+       }
+    }
+ }
+}

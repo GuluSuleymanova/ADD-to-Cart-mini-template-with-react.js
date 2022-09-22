@@ -1,0 +1,82 @@
+.header{
+    //padding-bottom: 60px;
+
+    .navbar{
+        border: 1px solid #39524f;
+        background-color: #f6f4f1 !important;
+        color: #39524f !important;
+        //height: 85px;
+
+        .logoimg{
+            background-color: #39524f;
+            padding: 27px 20px;
+           
+            
+        }
+        .nav-link{
+            font-family: "Montserrat",Sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #39524f !important;
+            padding-left: 13px !important;
+            padding-right: 13px !important;
+           // transition: all 3s ease-in-out;
+
+            &:hover{
+                text-decoration:underline;
+                text-decoration-color: #d8e1cc;
+                text-decoration-thickness: 7px;
+                text-underline-offset: -4px;
+                //transition: 3s all ease-in-out;
+            }
+
+           
+        }
+         .active{
+                    text-decoration:underline !important;
+                    text-decoration-color: #d8e1cc !important;
+                    text-decoration-thickness: 7px !important;
+                    text-underline-offset: -4px !important;
+                
+            }
+
+         .btn{
+             width: 79px;
+             height: 86px;
+             background-color: #39524f;
+             color: #d8e1cc;
+             align-items: center;
+             display: flex;
+             justify-content: center;
+             border: none;
+             border-radius: 0;
+             box-shadow: none;
+             
+             
+             
+
+             .iconbag{
+                font-size: 17px;
+
+                .sifir{
+                    font-size: 9px;
+                    position: absolute;
+                    border-radius: 100%;
+                    background-color: #d8e1cc;
+                    color: #39524f;
+                    min-width: 1.5em;
+                    height: 1.5em;
+                    line-height: 1.5;
+                    display: flex;
+                    justify-content: center;
+                    transform: translate(10px,-20px);
+                    //top: 3em;
+                    //right: 2.5em;
+
+
+                }
+             }
+         }   
+    }
+}
